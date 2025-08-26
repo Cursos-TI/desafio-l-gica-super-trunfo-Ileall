@@ -162,7 +162,7 @@ int main() {
             break;
     }
 
-    printf("\nAtributos que foram comparados: %s e %s\n", nome_attr1, nome_attr2);
+    printf("\nAtributos comparados: %s e %s\n", nome_attr1, nome_attr2);
     printf("%s - %s: %.2f, %s: %.2f\n", cidade1, nome_attr1, valor1_attr1, nome_attr2, valor1_attr2);
     printf("%s - %s: %.2f, %s: %.2f\n", cidade2, nome_attr1, valor2_attr1, nome_attr2, valor2_attr2);
 
@@ -219,7 +219,7 @@ int main() {
         printf("CARTA VENCEDORA: %s\n", cidade2);
     } else {
         printf("EMPATE!\n");
-    }ss
+    }
     
     return 0;
 }
