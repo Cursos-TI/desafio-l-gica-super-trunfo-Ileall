@@ -219,7 +219,7 @@ int main() {
         printf("CARTA VENCEDORA: %s\n", cidade2);
     } else {
         printf("EMPATE!\n");
-    }
+    }ss
     
     return 0;
 }
